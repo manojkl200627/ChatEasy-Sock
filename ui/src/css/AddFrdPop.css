@@ -1,0 +1,53 @@
+.mainbox1afp{
+    background-color: aliceblue;
+    position: fixed;
+    display: flex;
+    height: 400px;
+    width: 600px;
+    z-index: 1000;
+    
+}
+
+.boxAfp2{
+    margin: 2rem;
+    background-color: rgba(104, 120, 147, 0.646);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+
+.namboxadp{
+    font-size: x-large;
+    background-color: blue;
+    margin-bottom:50px ;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.inputaf{
+   
+    padding: 20px;
+    width: 400px;
+    font-size: large;
+    border-width: 3px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    transition: all .4s ease;
+}
+.inputaf:hover{
+    background-color: rgba(255, 255, 255, 0.388);
+}
+.buttaf{
+    font-size: x-large;
+    background-color: rgb(117, 117, 179);
+    
+    padding: 10px;
+    border-radius: 20px;
+}
+.buttaf:hover{
+    background-color: rgb(83, 144, 106);
+}

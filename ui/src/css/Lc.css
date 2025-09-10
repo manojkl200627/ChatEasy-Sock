@@ -1,0 +1,69 @@
+.lcbox1{
+    display: flex;
+    width: 100%;
+    height:100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(66, 66, 66, 0.763);
+}
+.namebox{
+    font-size: 4rem;
+    margin: 1rem;
+}
+.lcbox2{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.285);
+    padding: 4rem;
+    gap: 2rem;
+}
+.Lci{
+    width: 25rem;
+    height: 3rem;
+    color: black;
+    border-width: .3rem;
+    border-color: aliceblue;
+    transition: all .3s ease;
+}
+.Lci:hover{
+    scale: 1.5;
+    border-color: rgb(0, 0, 0);
+}
+.sendbox{
+    width: 25rem;
+    height: 3.5rem;
+    margin: .5rem;
+    transition: all .3s ease;
+}
+.sendbox:hover{
+    background-color: black;
+    color: white;
+    scale: 1.1;
+}
+.registerbox{
+    
+    width: 25rem;
+    height: 3.5rem;
+    margin: .5rem;
+    transition: all .3s ease;
+}
+.registerbox:hover{
+    background-color: black;
+    color: white;
+    scale: 1.1;
+}
+@media (max-width: 768px) {
+  body * {
+    display: none !important;
+  }
+
+  body::before {
+    content: "⚠️ Please open on desktop — made only for desktops";
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    color: red;
+  }
+}
