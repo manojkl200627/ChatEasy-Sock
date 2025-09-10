@@ -109,6 +109,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:4200",
+     "https://datechatweb2-o.onrender.com",
       "http://localhost:3000",
       "http://localhost:5173",
     ],
