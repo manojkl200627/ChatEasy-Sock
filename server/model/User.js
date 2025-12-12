@@ -5,7 +5,7 @@ const userSchema = new mongoose.Schema(
     name: { type: String },
     email: { type: String },
     password: { type: String },
-    friends: { type: [String], default: ["Adminmanu@g.com",gemini@gmail.com] },
+    friends: { type: [String], default: ["Adminmanu@g.com","gemini@gmail.com"] },
   },
   { timestamps: true }
 );
