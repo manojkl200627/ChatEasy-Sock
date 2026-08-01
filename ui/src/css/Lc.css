@@ -53,17 +53,29 @@
     color: white;
     scale: 1.1;
 }
-@media (max-width: 768px) {
-  body * {
-    display: none !important;
-  }
 
-  body::before {
-    content: "⚠️ Please open on desktop — made only for desktops";
-    display: block;
-    text-align: center;
-    font-size: 18px;
-    padding: 20px;
-    color: red;
-  }
+/* Mobile */
+@media (max-width: 600px){
+    .lcbox2{
+        padding: 2rem 1.2rem;
+        gap: 1.2rem;
+        width: 90%;
+    }
+    .namebox{
+        font-size: 2.2rem;
+    }
+    .Lci{
+        width: 100%;
+        height: 2.8rem;
+    }
+    .Lci:hover{
+        scale: 1;
+    }
+    .sendbox, .registerbox{
+        width: 100%;
+        height: 3rem;
+    }
+    .sendbox:hover, .registerbox:hover{
+        scale: 1;
+    }
 }

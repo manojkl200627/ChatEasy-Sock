@@ -20,7 +20,8 @@ const HandleAddfrdCkick=async ()=>{
 try {
 
     const res = await axios.post(`${bkuri}/api/users/frds/${currentUser}`,{email})
-    console.log(res)
+    setadd(false)
+    window.location.reload()
 } catch (error) {
     console.log(error)
 }

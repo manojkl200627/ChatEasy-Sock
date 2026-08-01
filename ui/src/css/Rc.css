@@ -45,3 +45,29 @@
     scale: 1.1;
 
     }
+
+/* Mobile */
+@media (max-width: 600px){
+    .Rcbox2{
+        padding: 2rem 1.2rem;
+        gap: 1.2rem;
+        width: 90%;
+    }
+    .Rcnamebox{
+        font-size: 2rem;
+    }
+    .Rci{
+        width: 100%;
+        height: 2.8rem;
+    }
+    .Rci:hover{
+        scale: 1;
+    }
+    .RegiterBut{
+        width: 100%;
+        height: 3rem;
+    }
+    .RegiterBut:hover{
+        scale: 1;
+    }
+}

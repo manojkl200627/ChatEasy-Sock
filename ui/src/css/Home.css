@@ -189,3 +189,23 @@
   color: rgb(8, 159, 11);
   border-color: #000000;
 }
+
+/* Mobile */
+@media (max-width: 768px){
+  .Hcbox1{
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+  }
+  .contactbox{
+    width: 100%;
+    max-height: 40vh;
+  }
+  .chatbox{
+    width: 100%;
+    flex: 1;
+  }
+  .msg{
+    max-width: 85%;
+  }
+}
